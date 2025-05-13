@@ -1,0 +1,40 @@
+Required commands:
+
+
+Open the terminal in VS Code:
+
+Click Terminal > New Terminal
+
+Then run:
+python -m venv venv
+
+
+This creates a virtual environment named venv.
+
+Activate it:
+
+Windows: venv\Scripts\activate
+
+Mac/Linux: source venv/bin/activate
+
+
+Install Required Packages
+
+pip install flask flask_sqlalchemy flask_wtf werkzeug
+
+
+Run the Flask App
+
+In the terminal (make sure you're still in the project folder and virtual environment is active), run: 
+
+python app.py
+
+If everything is good, you’ll see:* Running on http://127.0.0.1:5000/
+
+
+Click or open that link in your browser to access your Inventory Management System! 🎉
+
+$env:FLASK_ENV = \"development\"    # For Windows PowerShell
+export FLASK_ENV=development        # For Mac/Linux
+
+
